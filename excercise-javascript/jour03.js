@@ -27,6 +27,8 @@ numbers.reverse();
 console.log(numbers);
 numbers.sort();
 console.log(numbers);
+
+
 //excercise5//
 let total = 0;
 let limit = 10;
@@ -36,10 +38,11 @@ let limit = 10;
  }
 
  //excercise6//
- let sentence = "Hello Konexio";
+ let sentence = "Hello Konexio !";
  for (let i = sentence.length -1; i >=0; i --){
      console.log(sentence[i]);
  }
+
 
  //Bonus1//
  for (let i = 0; i <=100; i++)
@@ -54,12 +57,20 @@ let limit = 10;
  } else{
     console.log(i);
  }
+
+
+
+//  Créez une variable `total` de valeur `0` et une variable `limit` de valeur `10`
+// À l'aide d'une boucle for allant de`0` à `limit`, augmentez la valeur de `total` en lui ajoutant la valeur de `i` (i est l'index de votre boucle)
+// Affichez la valeur de `total` après votre boucle, total doit valoir 55 = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
  
  //Bonus2//
- let total = 0;
- let limit = 10;
+ let totally = 0;
+ let limitted = 10;
+ let i = 0;
+while (i<= limitted){
+    totally = totally + i;
+   console.log(totally);
+   i++;
 
- while (total < limit) {
-	total++;
-    console.log(total)
 }
