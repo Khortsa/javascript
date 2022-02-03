@@ -1,13 +1,14 @@
 //excercise1//
 let total = 0;
-for(i=5; i<= 10; i++){
+for( let i=5; i<= 10; i++){
     total = i * i + total;
+    console.log(total);
 }
-console.log(total);
 
-//excercise2//
+
+excercise2//
 let total1 = 0;
-for (i = 100; i<= 1000; i++){
+for (let i = 100; i<= 1000; i++){
     if(i%7===0){
         total1 = total1 + 1;  
     }
@@ -19,7 +20,7 @@ let max = 6;
 let min = 1;
 
 
-for(i=0; i <=20; i++){
+for(let i=0; i <=20; i++){
     var diceRoll = Math.floor(Math.random() * (max - min + 1) + min);
     //console.log(diceroll);//
 
