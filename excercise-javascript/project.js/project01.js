@@ -112,7 +112,7 @@ const pilotRover = (success) => {
 }
 
 
-//6thstep//
+
 
 
 
